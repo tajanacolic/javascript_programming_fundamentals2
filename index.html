@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment no.2</title>
+    </head>
+
+    <body>
+        <script>
+
+            var a = parseInt(prompt("Please enter the first number: "));
+            var operation = prompt("Please enter arithmetic operation: ");
+            var b = parseInt(prompt("Please enter the second number: "));
+            var result;
+
+            if (operation === "+"){
+
+                result = a + b;
+                document.write("The result value is: " + result + ".");
+
+            } else if (operation === "-"){
+
+                result = a - b;
+                document.write("The result value is: " + result + ".");
+
+            } else if (operation === "*"){
+
+                result = a * b;
+                document.write("The result value is: " + result + ".");
+
+            } else if (operation === "/"){
+
+                result = a / b;
+                document.write("The result value is: " + result + ".");
+
+            } else{
+
+                document.write("Invalid arithmetic operation. You can type +, -, * or /.");
+
+            }
+
+        </script>
+    </body>
+
+</html>
